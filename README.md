@@ -26,7 +26,7 @@ This project aims to resolve the issue of "disruptive background noises" during 
 
 The company's open office layout and lack of soundproofing meant that remote employees' microphones were picking up <ins>distracting background noise</ins> from their on-site colleagues' conversations and surrounding office equipment. 
 
-This issue was further compounded by the fact that some of **VGM LAB**'s remote employees were working from home offices with poor acoustics, experiencing issues with <ins>voice echoes</ins> and <ins>room reverb</ins>, which caused confusion and disruption during virtual meetings.
+This issue was further escalated by the fact that some of **VGM LAB**'s remote employees were working from home offices with poor acoustics, experiencing issues with <ins>voice echoes</ins> and <ins>room reverb</ins>, causing confusion during virtual meetings.
 
 To make matters worse, **VGM LAB**'s clients were also experiencing <ins>poor audio quality</ins> during video calls and product demonstrations, making it difficult for them to hear and understand the game developers.
 
@@ -39,10 +39,12 @@ To make matters worse, **VGM LAB**'s clients were also experiencing <ins>poor au
 
 
 ## ⛔ Problem Statement:
-Challenges the client faced in managing passwords included:
+Our Support Team was receiving a high volume of tickets related to microphone issues in Microsoft Teams. The problems ranged from:
+
 - ❌ Background Noises - being audible and distracting callers
 - ❌ Voice Echoes - causing confusion during client meetings and team discussions
 - ❌ Muffled Audio - callers unable to hear speaker clearly
+
 
 ## 💡 Solution:
 To address the microphone issues, I deployed a Virtual Microphone and Noise Suppression solution called `Krisp`. Krisp is a cloud-based software that can integrate directly with `Microsoft Teams`. 
@@ -62,16 +64,18 @@ Krisp was able to address each of the identified problem statements and offered 
 # 💻 Implementation:
 
 ### 1️⃣ Evaluation and Testing:
-Created a test enviroment, using `Hyper-V` virtual machines to mimic the users' Microsoft Teams setup. This included the exact software configurations, hardware specs and room conditions that the end-users would be using.
+I created a test enviroment, using `Hyper-V` virtual machines to mimic the users' Microsoft Teams setup. This included the exact software configurations, hardware specs and room conditions that the end-users would be using.
 
 
 [i.] <ins>**Local Users' desktop environment**</ins>
 
 <details><summary>VM 1 checklist</summary>
 
-  - [x] **OS**: `Windows 11` - *joined to a local `Active Directory` running on `Windows Server OS`*
+  `On-Prem VM`
+  - [x] **OS**: `Windows 11`
   - [x] **Hardware Specs**: CPU: *2 cores* | RAM: *8GB (8192)* | HDD1: *256GB*
-  - [x] **Teams Setup**: `Teams` for work or school *(classic)*
+  - [x] **User/Device Management**: local `Active Directory` on `Windows Server OS`
+  - [x] **Teams Setup**: `Teams` <ins>(classic)</ins>
 
 </details>
 
@@ -79,10 +83,12 @@ Created a test enviroment, using `Hyper-V` virtual machines to mimic the users' 
 
 <details><summary>VM 2 checklist</summary>
 
-  - [x] **OS**: `Windows 11` - *joined to `Microsoft Entra ID`*
+  `Cloud VM`
+  - [x] **OS**: `Windows 11`
   - [x] **Hardware Specs**: CPU: *2 cores* | RAM: *8GB (8192)* | HDD1: *256GB*
-  - [x] **Microsoft Account**: `Microsoft 365` with an E5 License
-  - [x] **Teams Setup**: `Teams` for work or school *(new)*
+  - [x] **User/Device Management**: `Microsoft Entra ID` / `Intune`
+  - [x] **License**: `Microsoft 365` E5 
+  - [x] **Teams Setup**: `Teams` <ins>(new)</ins>
 
 </details>
 
