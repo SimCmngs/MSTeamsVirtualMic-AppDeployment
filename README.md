@@ -39,7 +39,7 @@ To make matters worse, **VGM LAB**'s clients were also experiencing <ins>poor au
 
 
 ## ⛔ Problem Statement:
-Our Support Team was receiving a high volume of tickets related to microphone issues in Microsoft Teams. The problems ranged from:
+Our Support Team received a high volume of tickets related to microphone issues in Microsoft Teams. The problems ranged from:
 
 - ❌ Background Noises - being audible and distracting callers
 - ❌ Voice Echoes - causing confusion during client meetings and team discussions
