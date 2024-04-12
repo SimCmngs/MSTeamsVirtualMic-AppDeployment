@@ -74,7 +74,7 @@ I created a test enviroment, using `Hyper-V` virtual machines to mimic the users
   `On-Prem VM`
   - [x] **OS**: `Windows 11`
   - [x] **Hardware Specs**: CPU: *2 cores* | RAM: *8GB (8192)* | HDD1: *256GB*
-  - [x] **User/Device Management**: local `Active Directory` on `Windows Server OS`
+  - [x] **Device Management**: local `Active Directory` on `Windows Server OS`
   - [x] **Teams Setup**: `Teams` <ins>(classic)</ins>
 
 </details>
@@ -86,7 +86,7 @@ I created a test enviroment, using `Hyper-V` virtual machines to mimic the users
   `Cloud VM`
   - [x] **OS**: `Windows 11`
   - [x] **Hardware Specs**: CPU: *2 cores* | RAM: *8GB (8192)* | HDD1: *256GB*
-  - [x] **User/Device Management**: `Microsoft Entra ID` / `Intune`
+  - [x] **Device Management**: `Microsoft Entra ID` / `Intune`
   - [x] **License**: `Microsoft 365` E5 
   - [x] **Teams Setup**: `Teams` <ins>(new)</ins>
 
