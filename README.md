@@ -31,7 +31,7 @@ This issue was further escalated by the fact that some of **VGM LAB**'s remote e
 To make matters worse, **VGM LAB**'s clients were also experiencing <ins>poor audio quality</ins> during video calls and product demonstrations, making it difficult for them to hear and understand the game developers.
 
 ### 🏢 Company Background:
-- The client is an an independent Video Game Development company, outsourcing the management of their IT services to our Cloud Support Team.
+- The client is a small-sized Game Development company, outsourcing the management of their IT services to our Cloud Support Team.
 - Their reliance on remote meetings has increased due to more team members working from home, with Microsoft Teams being their primary platform for virtual collaboration.
 - Frustrations include poor microphone/audio quality and background noises disrupting the flow of virtual calls and meetings.
 
