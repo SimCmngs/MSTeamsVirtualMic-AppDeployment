@@ -24,11 +24,11 @@ This project aims to resolve the issue of "disruptive background noises" during 
 
 > **VGM-LAB Game Dev Studios** - an independant video game development company, are facing a significant challenge in maintaining effective virtual collaboration and communication as its <ins>reliance on remote work</ins> and <ins>Microsoft Teams</ins> has increased.
 
-The company's open office layout and lack of soundproofing means that remote employees' microphones are picking up <ins>distracting background noise</ins> from their on-site colleagues' conversations and surrounding office equipment. 
+The company's open office layout and lack of soundproofing means that remote employees' microphones are picking up <ins>distracting background noise</ins> from their **on-site colleagues'** conversations and surrounding office equipment. 
 
-This issue was further escalated by the fact that some of **VGM LAB**'s remote employees were working from home offices with poor acoustics, experiencing issues with <ins>voice echoes</ins> and <ins>room reverb</ins>, causing confusion during virtual meetings.
+This issue was further escalated by the fact that some of **VGM LAB's remote employees** were working from home offices with poor acoustics, experiencing issues with <ins>voice echoes</ins> and <ins>room reverb</ins>, causing confusion during virtual meetings.
 
-To make matters worse, **VGM LAB**'s clients were also experiencing <ins>poor audio quality</ins> during video calls and product demonstrations, making it difficult for them to hear and understand the game developers.
+To make matters worse, **VGM LAB's clients** were also experiencing <ins>poor audio quality</ins> during video calls and product demonstrations, making it difficult for them to hear and understand the game developers.
 
 ### 🏢 Company Background:
 - The client is a small-sized Game Development company, outsourcing the management of their IT services to our Cloud Support Team.
