@@ -22,7 +22,7 @@ This project aims to resolve the issue of "disruptive background noises" during 
 
 # Introduction
 
-> **VGM-LAB Game Dev Studios** - an independant video game development company, facing a significant challenge in maintaining effective virtual collaboration and communication as its <ins>reliance on remote work</ins> and <ins>Microsoft Teams</ins> has increased.
+> **VGM-LAB Game Dev Studios** - an independant video game development company, are facing a significant challenge in maintaining effective virtual collaboration and communication as its <ins>reliance on remote work</ins> and <ins>Microsoft Teams</ins> has increased.
 
 The company's open office layout and lack of soundproofing means that remote employees' microphones are picking up <ins>distracting background noise</ins> from their on-site colleagues' conversations and surrounding office equipment. 
 
