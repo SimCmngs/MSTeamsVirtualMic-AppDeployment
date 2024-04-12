@@ -33,7 +33,7 @@ To make matters worse, **VGM LAB's clients** were also experiencing <ins>poor au
 ### 🏢 Company Background:
 - The client is a small-sized Game Development company, outsourcing the management of their IT services to our Cloud Support Team.
 - Their reliance on remote meetings has increased due to more team members working from home, with Microsoft Teams being their primary platform for virtual collaboration.
-- Frustrations include poor microphone/audio quality and background noises disrupting the flow of virtual calls and meetings.
+- Complaints include poor microphone/audio quality and background noises disrupting the flow of virtual calls and meetings.
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
