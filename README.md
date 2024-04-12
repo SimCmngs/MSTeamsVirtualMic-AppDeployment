@@ -1,6 +1,6 @@
 # Resolving Microphone Issues with Noise Suppression App - for Microsoft Teams
 
-This was a project I completed during my bootcamp training, helping a co-student (install software) to supress the background noises their microphone was picking up during our Zoom call sessions. 
+This was a project I completed during my bootcamp training, helping a co-student (install software) to suppress the background noises their microphone was picking up during our Zoom call sessions. 
 
 I've re-created this project to work in an IT corporate setting, changing the video/conferencing platform from Zoom to Microsoft Teams and recreating this issue as a support ticket. 
 
@@ -22,18 +22,18 @@ This project aims to resolve the issue of "disruptive background noises" during 
 
 # Introduction
 
-> **VGM-LAB Game Dev Studios**, an independant video game development company, found itself facing a significant challenge in maintaining effective virtual collaboration and communication as its <ins>reliance on remote work</ins> and <ins>Microsoft Teams</ins> has increased.
+> **VGM-LAB Game Dev Studios** - an independant video game development company, facing a significant challenge in maintaining effective virtual collaboration and communication as its <ins>reliance on remote work</ins> and <ins>Microsoft Teams</ins> has increased.
 
-The company's open office layout and lack of soundproofing meant that remote employees' microphones were picking up <ins>distracting background noise</ins> from their on-site colleagues' conversations and surrounding office equipment. 
+The company's open office layout and lack of soundproofing means that remote employees' microphones are picking up <ins>distracting background noise</ins> from their on-site colleagues' conversations and surrounding office equipment. 
 
 This issue was further escalated by the fact that some of **VGM LAB**'s remote employees were working from home offices with poor acoustics, experiencing issues with <ins>voice echoes</ins> and <ins>room reverb</ins>, causing confusion during virtual meetings.
 
 To make matters worse, **VGM LAB**'s clients were also experiencing <ins>poor audio quality</ins> during video calls and product demonstrations, making it difficult for them to hear and understand the game developers.
 
 ### 🏢 Company Background:
-- The client is an an independent Video Game Development company, outsourcing the management of their IT services to an external MSP.
+- The client is an an independent Video Game Development company, outsourcing the management of their IT services to our Cloud Support Team.
 - Their reliance on remote meetings has increased due to more team members working from home, with Microsoft Teams being their primary platform for virtual collaboration.
-- Frustrations include poor audio quality and background noises disrupting the flow of virtual calls and meetings.
+- Frustrations include poor microphone/audio quality and background noises disrupting the flow of virtual calls and meetings.
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
