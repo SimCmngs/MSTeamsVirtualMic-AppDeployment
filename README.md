@@ -1,12 +1,12 @@
 # Deploying a Virtual Microphone & Noise Suppression App - Across a Company's Workforce
 
-> This was a project I completed during my bootcamp training, helping a co-student (deploy software) to suppress the background noises their microphone was picking up during our Zoom call sessions. 
-> 
-> I've re-created this project to work in an IT corporate setting, changing the video/conferencing platform from Zoom to Microsoft Teams and recreating this issue as a support ticket. 
-
-This project aims to resolve the issue of "disruptive background noises" during virtual meetings and calls, by deploying a <ins>Virtual Microphone/Noise Suppression</ins> solution that easily integrates with **Microsoft Teams**.
+This project aims to "resolve the issue of disruptive background noises" during virtual meetings and calls, by deploying a <ins>Virtual Microphone/Noise Suppression</ins> solution that easily integrates with **Microsoft Teams**.
 
 ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+
+> This was a project I completed originally, to help a co-student suppress background noises their microphone was picking up during Zoom call sessions. 
+> 
+> I've re-created this project to work in an IT corporate setting, changing the video/conferencing platform from Zoom to Microsoft Teams and recreating this issue as a support ticket. 
 
 ## 🛠 Tools & Technologies:
 
