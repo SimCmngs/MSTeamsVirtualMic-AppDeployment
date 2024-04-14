@@ -63,8 +63,6 @@ Krisp was able to address each of the identified problem statements and offered 
 - ✅ Enhanced Voice Quality
   - *(improving clarity and volume balance between speaker and caller)*   
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
 ---
 
 # 💻 Implementation:
@@ -73,7 +71,7 @@ Krisp was able to address each of the identified problem statements and offered 
 I created a test enviroment, using `Hyper-V` virtual machines to mimic the users' Microsoft Teams setup. This included the exact software configurations, hardware specs and room conditions that the end-users would be using.
 
 
-[i.] <ins>**Local Users' desktop environment**</ins>
+[i.] **Local Users'** <ins>desktop environment</ins>
 
 <details><summary>VM 1 checklist</summary>
 
@@ -85,7 +83,7 @@ I created a test enviroment, using `Hyper-V` virtual machines to mimic the users
 
 </details>
 
-[ii.] <ins>**Remote Users' desktop environment**</ins>
+[ii.] **Remote Users'** <ins>desktop environment</ins>
 
 <details><summary>VM 2 checklist</summary>
 
@@ -100,17 +98,42 @@ I created a test enviroment, using `Hyper-V` virtual machines to mimic the users
 
 > [!IMPORTANT]
 > **Drop-down sections above** (^) - expand for more info.
+---
+I performed <ins>A/B comparison tests</ins>, to evaluate the noise supression capabilities of **Krisp** against the default **Microsft Teams** audio settings.
+
+    TEST SCENARIO 1: Background Noise Cancellation
+    
+    I introduced various types of background noises, such as office conversations, 
+    fan noises, and keyboard typing.
+    
+    The Krisp-enabled audio, consistently provided a cleaner and more focused sound, eliminating the distracting background noises.
+    
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
+    TEST SCENARIO 2: Echo Removal
+
+    I made a test call in an empty room, observing Krisp's ability to reduce the voice echo and 
+    room reverberations. 
+
+    The Krisp-enabled audio, consistently provided a clearer and more forward sound, removing the voice echoes completely.
+  
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 ---
 
 ### 2️⃣ Software Deployment:
-I created 2 deployment options for installing Krisp, to work for each use-case scenario.
+I created <ins>2 deployment options</ins> for installing Krisp, to work for each use-case scenario.
 
-Because TeamViewer lacked a built-in, voice calling feature, I used Zoom instead to communicate with the client. Providing timely responses to their requests and questions.
+    OPTION 1: Single User, LOCAL Deployment
+
+For local deployments, I developed a PowerShell script in combination with the Windows Package Manager (Winget) to automate the installation process.
+
+This allowed for a silent and unattended installation of Krisp, providing a convenient and self-service option for both individual users and on-site engineers.
 
 `PowerShell` 
 
-<ins>Installing **Bitwarden** with *Windows Package Manager*</ins>: `winget`
+<ins>Installing **Krisp** with *Windows Package Manager*</ins>: `winget`
 
 ```powershell
 # Check if winget is installed
@@ -124,15 +147,18 @@ if (-not $wingetInstalled) {
     Write-Host "winget installed successfully."
 }
 
-# Install Bitwarden using winget
-Write-Host "Installing Bitwarden..."
-winget install Bitwarden.Bitwarden -e
-Write-Host "Bitwarden installed successfully."
+# Install Krisp using winget
+Write-Host "Installing Krisp..."
+winget install Krisp.Krisp -e
+Write-Host "Krisp installed successfully."
 
 ```
-> [!NOTE]
-> This script automates the downloading and silent installation of Bitwarden, reducing the manual effort and time needed to search for and run the installer.
+    OPTION 2: Multiple Workstations, REMOTE Deployment
+    
+For remote deployments, I packaged the Krisp installer into an .intunewin file, uploading to `Microsoft Intune` for an available app deploy assignment.
 
+This allowed for the central management and distribution of Krisp to multiple workstations, providing the flexibility to target specific users or device groups.
+  
 ---
 
 ### 3️⃣ Training and Support:
@@ -146,13 +172,13 @@ To produce the Video Tutorial, I used an `AI Step Recorder` to capture my mouse 
 
 ## 📊 Results:
 Benefits for the client:
-- 🚀 **Enhanced workflow and ease-of-use**
+- 🤝 **Improved Meeting Productivity**
     - *(The password manager's autofill feature, will streamline the login process, <ins>saving the client time</ins> and <ins>reducing frustration</ins>)*.
     
-- 🔒 **Improved security**
+- ⏱️ **Faster Resolution Times**
     - *(A centralised and synchronized password vault, will make it <ins>safer to access passwords accross different devices</ins>)*.
     
-- 🧠 **Increased self-reliance**
+- 🔕 **Non-Intrusive Experience**
     - *(A video tutorial, will enable the client to troubleshoot issues on their own, <ins>reducing the reliance on external support</ins> and <ins>minimizing disruptions to their work</ins>)*.
 
 ---
