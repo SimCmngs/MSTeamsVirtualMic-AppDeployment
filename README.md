@@ -1,6 +1,6 @@
-# Deploying a Virtual Microphone & Noise Suppression App - Across a Company's Workforce
+# Deploying a Virtual Microphone / Noise Suppression App - Across a Company's Workforce
 
-This project aims to "resolve the issue of disruptive background noises" during virtual meetings and calls, by deploying a Virtual Microphone/Noise Suppression solution that easily integrates with **Microsoft Teams**.
+This project aims to resolve the issue of "disruptive background noises" during virtual meetings and calls, by deploying a Virtual Microphone/Noise Suppression solution that easily integrates with **Microsoft Teams**.
 
 ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
