@@ -22,13 +22,19 @@ This project aims to resolve the issue of "disruptive background noises" during 
 
 # Introduction
 
-> **VGM-LAB Game Dev Studios** - an independant video game development company, are facing a significant challenge in maintaining effective virtual collaboration and communication as its <ins>reliance on remote work</ins> and <ins>Microsoft Teams</ins> has increased.
+**VGM-LAB Game Dev Studios** - *(an independant video game development company)* are facing a difficult challenge, with a number of their employees unable to have productive virtual **Teams** meetings due to several factors:
 
-The company's open office layout and lack of soundproofing means that remote employees' microphones are picking up <ins>distracting background noise</ins> from their **on-site colleagues'** conversations and surrounding office equipment. 
+**On-Site Colleagues** - <ins>Distracting Background Noises</ins> 
 
-This issue was further escalated by the fact that some of **VGM LAB's remote employees** were working from home offices with poor acoustics, experiencing issues with <ins>voice echoes</ins> and <ins>room reverb</ins>, causing confusion during virtual meetings.
+> Conversations and surrounding office equipment are being picked up by remote employees' microphones, due to the site's <ins>open-office layout</ins> and <ins>lack of soundproofing</ins>.
 
-To make matters worse, **VGM LAB's clients** were also experiencing <ins>poor audio quality</ins> during video calls and product demonstrations, making it difficult for them to hear and understand the game developers.
+**Remote Employees** - <ins>Voice/Room Echoes</ins>  
+
+> Employees working from poor-acoutsic home offices, are experiencing <ins>voice echoes</ins> and <ins>room reverb</ins>, making it difficult for participants to focus and understand each other.
+
+**Remote Clients** - <ins>Poor Audio Clarity</ins> 
+
+> Clients' speakers were also experiencing <ins>poor audio quality</ins> during video calls and product demonstrations, making it difficult for them to hear and understand the game developers.
 
 ### 🏢 Company Background:
 - The client is a small-sized Game Development company, outsourcing the management of their IT services to our Cloud Support Team.
