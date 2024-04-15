@@ -122,14 +122,14 @@ I performed <ins>A/B comparison tests</ins>, to evaluate the noise supression ca
 
 ---
 
-### 2️⃣ Software Deployment:
+### 2️⃣ Deployment:
 <ins>2 deployment options</ins> were created for installing Krisp, to work for each use-case scenario. 
 
-> OPTION 1: Local deployment `PowerShell`
+> OPTION 1: Single User, LOCAL Deployment
 > 
-> OPTION 2: Remote deployment `Intune`
+> OPTION 2: Multiple Workstations, REMOTE Deployment
 
-    OPTION 1: Single User, LOCAL Deployment
+#### OPTION 1: Single User, LOCAL Deployment
 
     For local deployments, I developed a PowerShell script in combination with the 
     Windows Package Manager (Winget) to automate the installation process.
@@ -141,8 +141,9 @@ I performed <ins>A/B comparison tests</ins>, to evaluate the noise supression ca
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
+---
 
-    OPTION 2: Multiple Workstations, REMOTE Deployment
+#### OPTION 2: Multiple Workstations, REMOTE Deployment
     
     For remote deployments, I packaged the Krisp installer into an .intunewin file, 
     uploading to `Microsoft Intune` for an available assignment.
@@ -150,7 +151,7 @@ I performed <ins>A/B comparison tests</ins>, to evaluate the noise supression ca
     This allowed for the central management and distribution of Krisp to multiple workstations, 
     providing the flexibility to target specific users or device groups.
 
-<ins>Intune Win32 Content Prep Tool</ins> to generate the **.IntuneWin** file:
+Running <ins>Intune Win32 Content Prep Tool</ins> to generate the **.IntuneWin** file:
 
 ![Animation of IntuneWin32ContentPrep.ps1 script](GIF_IntuneWinScript.gif)
 
