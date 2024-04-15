@@ -139,7 +139,7 @@ I performed <ins>A/B comparison tests</ins>, to evaluate the noise supression ca
 
 Installing **Krisp** with <ins>*Windows Package Manager*</ins>: `winget`
 
-<img src="GIF_KrispWingetInstall.gif" width="60%" height="60%" />
+<img src="GIF_KrispWingetInstall.gif" width="70%" height="70%" />
 
 `PowerShell` -script
 
