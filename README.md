@@ -123,41 +123,56 @@ I performed <ins>A/B comparison tests</ins>, to evaluate the noise supression ca
 ---
 
 ### 2️⃣ Software Deployment:
-I created <ins>2 deployment options</ins> for installing Krisp, to work for each use-case scenario.
+I created <ins>2 deployment options</ins> for installing Krisp, to work for each use-case scenario. 
+
+> OPTION 1: Local deployment `PowerShell`
+> 
+> OPTION 2: Remote deployment `Intune`
 
     OPTION 1: Single User, LOCAL Deployment
 
-For local deployments, I developed a PowerShell script in combination with the Windows Package Manager (Winget) to automate the installation process.
+    For local deployments, I developed a PowerShell script in combination with the Windows Package Manager (Winget) 
+    to automate the installation process.
 
-This allowed for a silent and unattended installation of Krisp, providing a convenient and self-service option for both individual users and on-site engineers.
-
-`PowerShell` 
+    This allowed for a silent and unattended installation of Krisp, providing a convenient and self-service option 
+    for both individual users and on-site engineers.
 
 <ins>Installing **Krisp** with *Windows Package Manager*</ins>: `winget`
 
-```powershell
-# Check if winget is installed
-$wingetInstalled = Get-Command winget -ErrorAction SilentlyContinue
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-# Install winget if it's not installed
-if (-not $wingetInstalled) {
-    Write-Host "Installing winget..."
-    Invoke-WebRequest -Uri "https://github.com/microsoft/winget-cli/releases/latest/download/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.appxbundle" -OutFile "$env:TEMP\winget.appxbundle"
-    Add-AppxPackage -Path "$env:TEMP\winget.appxbundle"
-    Write-Host "winget installed successfully."
-}
 
-# Install Krisp using winget
-Write-Host "Installing Krisp..."
-winget install Krisp.Krisp -e
-Write-Host "Krisp installed successfully."
-
-```
     OPTION 2: Multiple Workstations, REMOTE Deployment
     
-For remote deployments, I packaged the Krisp installer into an .intunewin file, uploading to `Microsoft Intune` for an available app deploy assignment.
+    For remote deployments, I packaged the Krisp installer into an .intunewin file, 
+    uploading to `Microsoft Intune` for an available assignment.
 
-This allowed for the central management and distribution of Krisp to multiple workstations, providing the flexibility to target specific users or device groups.
+    This allowed for the central management and distribution of Krisp to multiple workstations, 
+    providing the flexibility to target specific users or device groups.
+
+<ins>Intune Win32 Content Prep Tool</ins> to generate the **.IntuneWin** file:
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+`PowerShell` -script
+
+<details><summary>IntuneWin32ContentPrep.ps1</summary>
+
+```powershell
+# Edit these variables to match your SETUP
+$IntuneWinAppUtilFolder = "C:\Intune\3-IntuneWinAppUtil" # REPLACE with Intune Win32 Content Prep Tool location 
+$SourceFolder = "C:\Intune\1-Krisp" # REPLACE with app setup file location 
+$SetupFile = "Krisp_2.33.5" # REPLACE with name of app setup file
+$OutputFolder = "C:\Intune\2-IntuneApps" # REPLACE with folder location to save IntuneWin file
+
+# Change Directory
+Set-Location -Path $IntuneWinAppUtilFolder
+
+# Run Intune Win32 Content prep tool with parameters
+& "$IntuneWinAppUtilFolder\IntuneWinAppUtil.exe" -c "$SourceFolder" -s "$SourceFolder\$SetupFile.exe" -o "$OutputFolder" -q
+
+```
+</details>
   
 ---
 
