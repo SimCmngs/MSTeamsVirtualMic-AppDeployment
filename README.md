@@ -131,11 +131,11 @@ I performed <ins>A/B comparison tests</ins>, to evaluate the noise supression ca
 
     OPTION 1: Single User, LOCAL Deployment
 
-    For local deployments, I developed a PowerShell script in combination with the Windows Package Manager (Winget) 
-    to automate the installation process.
+    For local deployments, I developed a PowerShell script in combination with the 
+    Windows Package Manager (Winget) to automate the installation process.
 
-    This allowed for a silent and unattended installation of Krisp, providing a convenient and self-service option 
-    for both individual users and on-site engineers.
+    This allowed for a silent and unattended installation of Krisp, providing a convenient and 
+    self-service option for both individual users and on-site engineers.
 
 <ins>Installing **Krisp** with *Windows Package Manager*</ins>: `winget`
 
@@ -152,7 +152,7 @@ I performed <ins>A/B comparison tests</ins>, to evaluate the noise supression ca
 
 <ins>Intune Win32 Content Prep Tool</ins> to generate the **.IntuneWin** file:
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Animation of IntuneWin32ContentPrep.ps1 script](GIF_IntuneWinScript.gif)
 
 `PowerShell` -script
 
