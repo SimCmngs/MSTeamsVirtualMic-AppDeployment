@@ -22,7 +22,7 @@ This project aims to resolve the issue of "disruptive background noises" during 
 
 # Introduction
 
-**VGM-LAB Game Dev Studios** - *(an independant video game development company)* are facing a difficult challenge, with a number of their employees unable to have productive virtual **Teams** meetings due to several factors:
+**VGM-LAB Game Dev Studios** - *(an independent video game development company)* are facing a difficult challenge, with a number of their employees unable to have productive virtual **Teams** meetings due to several factors:
 
 **On-Site Colleagues** - <ins>Distracting Background Noises</ins> 
 
@@ -30,11 +30,11 @@ This project aims to resolve the issue of "disruptive background noises" during 
 
 **Remote Employees** - <ins>Voice/Room Echoes</ins>  
 
-> Employees working from poor-acoutsic home offices, are experiencing <ins>voice echoes</ins> and <ins>room reverb</ins>, making it difficult for participants to focus and understand each other.
+> Employees working from poor-acoustic home offices, are experiencing <ins>voice echoes</ins> and <ins>room reverb</ins>, making it difficult for participants to focus and understand each other.
 
 **Remote Clients** - <ins>Poor Audio Clarity</ins> 
 
-> Clients' speakers were also experiencing <ins>poor audio quality</ins> during video calls and product demonstrations, making it difficult for them to hear and understand the game developers.
+> Clients' computer speakers were also experiencing <ins>poor audio quality</ins> during video calls and product demonstrations, making it difficult for them to hear and understand the game developers.
 
 ### 🏢 Company Background:
 - The client is a small-sized Game Development company, outsourcing the management of their IT services to our Cloud Support Team.
@@ -137,9 +137,33 @@ I performed <ins>A/B comparison tests</ins>, to evaluate the noise supression ca
     This allowed for a silent and unattended installation of Krisp, providing a convenient and 
     self-service option for both individual users and on-site engineers.
 
-<ins>Installing **Krisp** with *Windows Package Manager*</ins>: `winget`
+Installing **Krisp** with <ins>*Windows Package Manager*</ins>: `winget`
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img src="GIF_KrispWingetInstall.gif" width="60%" height="50%" />
+
+`PowerShell` -script
+
+<details><summary>KrispWingetInstall.ps1</summary>
+
+```powershell
+# Check if winget is installed
+$wingetInstalled = Get-Command winget -ErrorAction SilentlyContinue
+
+# Install winget if it's not installed
+if (-not $wingetInstalled) {
+    Write-Host "Installing winget..."
+    Invoke-WebRequest -Uri "https://github.com/microsoft/winget-cli/releases/latest/download/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.appxbundle" -OutFile "$env:TEMP\winget.appxbundle"
+    Add-AppxPackage -Path "$env:TEMP\winget.appxbundle"
+    Write-Host "winget installed successfully."
+}
+
+# Install Krisp using winget
+Write-Host "Installing Krisp..."
+winget install Krisp.Krisp -e
+Write-Host "Krisp installed successfully."
+
+```
+</details>
 
 ---
 
