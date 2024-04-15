@@ -123,7 +123,7 @@ I performed <ins>A/B comparison tests</ins>, to evaluate the noise supression ca
 ---
 
 ### 2️⃣ Software Deployment:
-I created <ins>2 deployment options</ins> for installing Krisp, to work for each use-case scenario. 
+<ins>2 deployment options</ins> were created for installing Krisp, to work for each use-case scenario. 
 
 > OPTION 1: Local deployment `PowerShell`
 > 
