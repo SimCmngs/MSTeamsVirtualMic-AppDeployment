@@ -71,7 +71,7 @@ Krisp was able to address each of the identified problem statements and offered 
 I created a test enviroment, using `Hyper-V` virtual machines to mimic the users' Microsoft Teams setup. This included the exact software configurations, hardware specs and room conditions that the end-users would be using.
 
 
-[i.] **Local Users'** <ins>desktop environment</ins>
+> #### **Local Users'** <ins>desktop environment</ins> 
 
 <details><summary>VM 1 checklist</summary>
 
@@ -83,7 +83,7 @@ I created a test enviroment, using `Hyper-V` virtual machines to mimic the users
 
 </details>
 
-[ii.] **Remote Users'** <ins>desktop environment</ins>
+> #### **Remote Users'** <ins>desktop environment</ins>
 
 <details><summary>VM 2 checklist</summary>
 
