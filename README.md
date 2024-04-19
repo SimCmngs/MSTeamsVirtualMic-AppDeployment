@@ -2,7 +2,7 @@
 
 This project aims to resolve the issue of "disruptive background noises" during virtual meetings and calls, by deploying a Virtual Microphone/Noise Suppression solution that easily integrates with **Microsoft Teams**.
 
-![Diagram](IMG_KrispDeployment-Diagram.png)
+![Diagram](IMG_KrispDeployment-Diagram-clr.png)
 
 > This project was completed originally, to help a co-student suppress background noises their microphone was picking up during Zoom call sessions. 
 > 
