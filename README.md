@@ -200,6 +200,8 @@ Set-Location -Path $IntuneWinAppUtilFolder
 ```
 </details>
 
+---
+
 Both deployment options also helped to <ins>mitigate security risks</ins> associated with manual software installations:
 
 > - <ins>Reduced</ins> the potential for <ins>unauthorized installations</ins>,
