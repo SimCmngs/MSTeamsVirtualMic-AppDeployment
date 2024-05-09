@@ -208,6 +208,8 @@ To produce the Video Tutorial, I used an `AI Step Recorder` to capture my mouse 
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
+https://github.com/SimCmngs/MSTeamsVirtualMic-AppDeployment/assets/166608651/23428718-002f-4aae-9e1e-79000600dd6f
+
 ---
 
 ## 📊 Results:
