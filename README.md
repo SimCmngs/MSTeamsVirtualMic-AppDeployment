@@ -108,7 +108,7 @@ I performed <ins>A/B comparison tests</ins>, to evaluate the noise supression ca
     The Krisp-enabled audio, consistently provided a cleaner and more focused sound, 
     eliminating the distracting background noises.
     
-<img src="IMG_Krisp-NoiseCancel.png" width="50%" height="50%" />
+<img src="IMG_Krisp-NoiseCancel.png" width="60%" height="60%" />
 
 
     TEST SCENARIO 2: Echo Removal
