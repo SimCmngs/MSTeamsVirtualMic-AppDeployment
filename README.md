@@ -220,7 +220,13 @@ SUPPORT TEAM:
 
 For the support team, I created more detailed <ins>"Manual-Installation Instructions"</ins> on configuring Krisp with Microsoft Teams. These instructions were added as an internal note to `Jira` support tickets, making them accessible only to authorized support team members.
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+`Jira` -support ticket
+
+<details><summary>Screenshot - Jira Support Ticket</summary>
+
+<img src="IMG_Jira-TicketNote.png" width="70%" height="70%" />
+
+</details>
 
 ---
 
