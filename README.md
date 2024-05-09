@@ -1,17 +1,17 @@
-# Deploying a Virtual Microphone / Noise Suppression App - Across a Company's Workforce
+# Deploying a Virtual Microphone Solution - for Microsoft Teams
 
 This project aims to resolve the issue of "disruptive background noises" during virtual meetings and calls, by deploying a Virtual Microphone/Noise Suppression solution that easily integrates with **Microsoft Teams**.
 
 ![Diagram](IMG_KrispDeploy-Diagram.png)
 
-> This project was completed originally, to help a co-student suppress background noises their microphone was picking up during Zoom call sessions. 
+> Originally, this project was made to help a co-student suppress the background noises their microphone was picking up during our Zoom call sessions. 
 > 
-> I've re-created this project to work in an IT corporate setting, changing the video/conferencing platform from Zoom to Microsoft Teams and recreating this issue as a support ticket. 
+> This project has been adapted to work within the context of a hypothetical IT Support environment, changing the video/conferencing platform from Zoom to Microsoft Teams, and including deployment options.
 
 ## 🛠 Tools & Technologies:
 
 - **System:** `Windows 11`, Windows `Server OS`
-- **Cloud Computing:** `Microsoft 365` / `MS Teams`
+- **Cloud Platforms:** `Microsoft 365` / `MS Teams`
 - **Device Management:** Microsoft `Intune`
 - **Virtualization:** `Hyper-V`
 - **Scripting/Automation:** `PowerShell`
@@ -22,7 +22,7 @@ This project aims to resolve the issue of "disruptive background noises" during 
 
 # Introduction
 
-**VGM-LAB Game Dev Studios** - *(an independent video game development company)* are facing a difficult challenge, with a number of their employees unable to have productive virtual **Teams** meetings due to several factors:
+An indie-game development company (VGM-LAB) - are facing a difficult challenge, with a number of their employees unable to have productive virtual **Teams** meetings due to several factors:
 
 **On-Site Colleagues** - <ins>Distracting Background Noises</ins> 
 
@@ -199,32 +199,45 @@ Set-Location -Path $IntuneWinAppUtilFolder
 
 ```
 </details>
-  
+
+Both deployment options also helped to <ins>mitigate security risks</ins> associated with manual software installations:
+
+> - <ins>Reduced</ins> the potential for <ins>unauthorized installations</ins>,
+>   - *by NOT downloading the Krisp installer to a visible location on the user's device.*
+>   
+> - Validated the <ins>software's integrity</ins> and <ins>lack of malicious code</ins>,
+>   - *by identifying and deploying the latest patched version of Krisp.*
+ 
 ---
 
 ### 3️⃣ Training and Support:
-During the training session, the client was concerned they wouldn't remember how to use the Password Manager, so I offered to create a video tutorial to serve as a reference, in case they ever forgot the correct action steps and needed reminding.  
 
-To produce the Video Tutorial, I used an `AI Step Recorder` to capture my mouse movements and automate the screen recording and annotation process, demonstrating how to use the Password Manager. I produced the final video, using a `Video Editor` to include voice narration, subtitles and timestamps.
+USERS:
+
+To train users on activating Krisp, I created a 2-step instruction <ins>"Ticket Response Template"</ins> that can be used by the Support Team, when replying to support emails regarding the integration of Krisp with Microsoft Teams. 
+
+SUPPORT TEAM:
+
+For the support team, I created more detailed <ins>"Manual-Installation Instructions"</ins> on configuring Krisp with Microsoft Teams. These instructions were added as an internal note to `Jira` support tickets, making them accessible only to authorized support team members.
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 ---
 
 ## 📊 Results:
-Benefits for the client:
+The deployment of the Virtual Microphone and Noise Supression software (Krisp) resulted in the following benefits for both users and support team members:
 - 🤝 **Improved Meeting Productivity**
-    - *(The password manager's autofill feature, will streamline the login process, <ins>saving the client time</ins> and <ins>reducing frustration</ins>)*.
+>    - (Krisp's noise-cancellation feature, will remove distracting noises during remote meetings, allowing for <ins>more productive conversations</ins> and <ins>improving overall engagement</ins>).
     
 - ⏱️ **Faster Resolution Times**
-    - *(A centralised and synchronized password vault, will make it <ins>safer to access passwords accross different devices</ins>)*.
+>    - (The 'Ticket Response Template' and 'Manual-Installation Instructions', will provide the Support Team with the necessary guidance to <ins>resolve microphone-related issues on the first call</ins>).
     
 - 🔕 **Non-Intrusive Experience**
-    - *(A video tutorial, will enable the client to troubleshoot issues on their own, <ins>reducing the reliance on external support</ins> and <ins>minimizing disruptions to their work</ins>)*.
+>    - (The 2 deployment options, will automate the installtion process in the background of the user's workstation, <ins>reducing interruptions to their workflow.</ins>).
 
 ---
 
 ## 🎉 Conclusion:
-The client expressed their satisfaction with the Password Manager solution, appreciating its ease of use and positive impact on their daily work.
+The users reported a noticeable enhancement in their overall audio experience with MS Teams, with fewer distractions and improved clarity during team meetings and client calls.
 
 ---
