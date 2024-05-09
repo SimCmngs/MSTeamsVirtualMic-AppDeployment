@@ -2,7 +2,7 @@
 
 This project aims to resolve the issue of "disruptive background noises" during virtual meetings and calls, by deploying a Virtual Microphone/Noise Suppression solution that easily integrates with **Microsoft Teams**.
 
-![Diagram](IMG_KrispDeployment-Diagram-clr.png)
+![Diagram](IMG_KrispDeploy-Diagram.png)
 
 > This project was completed originally, to help a co-student suppress background noises their microphone was picking up during Zoom call sessions. 
 > 
@@ -41,8 +41,7 @@ This project aims to resolve the issue of "disruptive background noises" during 
 - Their reliance on remote meetings has increased due to more team members working from home, with Microsoft Teams being their primary platform for virtual collaboration.
 - Complaints include poor microphone/audio quality and background noises disrupting the flow of virtual calls and meetings.
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+<img src="IMG_OpenOfficeLayout.jpeg" width="40%" height="40%" />
 
 ## ⛔ Problem Statement:
 The Support Team was receiving a high volume of tickets related to microphone issues in Microsoft Teams. The problems ranged from:
@@ -106,9 +105,10 @@ I performed <ins>A/B comparison tests</ins>, to evaluate the noise supression ca
     I introduced various types of background noises, such as office conversations, 
     fan noises, and keyboard typing.
     
-    The Krisp-enabled audio, consistently provided a cleaner and more focused sound, eliminating the distracting background noises.
+    The Krisp-enabled audio, consistently provided a cleaner and more focused sound, 
+    eliminating the distracting background noises.
     
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img src="IMG_Krisp-NoiseCancel.png" width="50%" height="50%" />
 
 
     TEST SCENARIO 2: Echo Removal
@@ -116,9 +116,10 @@ I performed <ins>A/B comparison tests</ins>, to evaluate the noise supression ca
     I made a test call in an empty room, observing Krisp's ability to reduce the voice echo and 
     room reverberations. 
 
-    The Krisp-enabled audio, consistently provided a clearer and more forward sound, removing the voice echoes completely.
+    The Krisp-enabled audio, consistently provided a clearer and more forward sound, 
+    removing the voice echoes completely.
   
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img src="IMG_Krisp-EchoCancel.png" width="40%" height="40%" />
 
 ---
 
