@@ -95,7 +95,9 @@ I created a test enviroment, using `Hyper-V` virtual machines to mimic the users
 
 </details>
 
-> [!IMPORTANT]
+---
+
+> [!NOTE]
 > **Drop-down sections above** (^) - expand for more info.
 ---
 I performed <ins>A/B comparison tests</ins>, to evaluate the noise supression capabilities of **Krisp** against the default **Microsft Teams** audio settings.
@@ -216,13 +218,18 @@ Both deployment options also helped to <ins>mitigate security risks</ins> associ
 
 USERS:
 
-To train users on activating Krisp, I created a 2-step instruction <ins>"Ticket Response Template"</ins> that can be used by the Support Team, when replying to support emails regarding the integration of Krisp with Microsoft Teams. 
+- Created a 2-step instruction <ins>"Ticket Response Template"</ins> that can be used by the Support Team.
+- Made for replying to customer support tickets, regarding the integration of Krisp with Microsoft Teams.
+> *To train users on activating Krisp*
 
 SUPPORT TEAM:
 
-For the support team, I created more detailed <ins>"Manual-Installation Instructions"</ins> on configuring Krisp with Microsoft Teams. These instructions were added as an internal note to `Jira` support tickets, making them accessible only to authorized support team members.
+- Created more detailed <ins>"Manual-Installation Instructions"</ins> on configuring Krisp with Microsoft Teams.
+- Added as an internal note to `Jira` support tickets, making them accessible only to authorized support team members.
 
-`Jira` -support ticket
+---
+
+`Jira` -support ticket 
 
 <details><summary>Screenshot - Jira Support Ticket</summary>
 
