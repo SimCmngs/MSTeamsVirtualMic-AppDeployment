@@ -1,4 +1,4 @@
-#Install Winget | Krisp
+#Install Krisp | Winget
 #Author: Sim Cmngs
 
 # Check if winget is installed
