@@ -67,7 +67,7 @@ Krisp was able to address each of the identified problem statements and offered 
 # 💻 Implementation:
 
 ### 1️⃣ Evaluation and Testing:
-I created a test enviroment, using `Hyper-V` virtual machines to mimic the users' Microsoft Teams setup. This included the exact software configurations, hardware specs and room conditions that the end-users would be using.
+Created a test enviroment, using `Hyper-V` virtual machines to mimic the users' Microsoft Teams setup. This included the exact software configurations, hardware specs and room conditions that the end-users would be using.
 
 
 > #### **Local Users'** <ins>desktop environment</ins> 
@@ -100,11 +100,11 @@ I created a test enviroment, using `Hyper-V` virtual machines to mimic the users
 > [!NOTE]
 > **Drop-down sections above** (^) - expand for more info.
 ---
-I performed <ins>A/B comparison tests</ins>, to evaluate the noise supression capabilities of **Krisp** against the default **Microsft Teams** audio settings.
+Performed <ins>A/B comparison tests</ins>, to evaluate the noise supression capabilities of **Krisp** against the default **Microsft Teams** audio settings.
 
     TEST SCENARIO 1: Background Noise Cancellation
     
-    I introduced various types of background noises, such as office conversations, 
+    Introduced various types of background noises, such as office conversations, 
     fan noises, and keyboard typing.
     
     The Krisp-enabled audio, consistently provided a cleaner and more focused sound, 
@@ -115,7 +115,7 @@ I performed <ins>A/B comparison tests</ins>, to evaluate the noise supression ca
 
     TEST SCENARIO 2: Echo Removal
 
-    I made a test call in an empty room, observing Krisp's ability to reduce the voice echo and 
+    Made a test call in an empty room, observing Krisp's ability to reduce the voice echo and 
     room reverberations. 
 
     The Krisp-enabled audio, consistently provided a clearer and more forward sound, 
