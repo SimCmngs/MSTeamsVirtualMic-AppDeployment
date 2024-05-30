@@ -67,7 +67,7 @@ Krisp was able to address each of the identified problem statements and offered 
 # 💻 Implementation:
 
 ### 1️⃣ Evaluation and Testing:
-Created a test enviroment, using `Hyper-V` virtual machines to mimic the users' Microsoft Teams setup. This included the exact software configurations, hardware specs and room conditions that the end-users would be using.
+Created a test environment, using `Hyper-V` virtual machines to mimic the users' Microsoft Teams setup. This included the exact software configurations, hardware specs and room conditions that the end-users would be using.
 
 
 > #### **Local Users'** <ins>desktop environment</ins> 
@@ -100,7 +100,7 @@ Created a test enviroment, using `Hyper-V` virtual machines to mimic the users' 
 > [!NOTE]
 > **Drop-down sections above** (^) - expand for more info.
 ---
-Performed <ins>A/B comparison tests</ins>, to evaluate the noise supression capabilities of **Krisp** against the default **Microsft Teams** audio settings.
+Performed <ins>A/B comparison tests</ins>, to evaluate the noise suppression capabilities of **Krisp** against the default **Microsoft Teams** audio settings.
 
     TEST SCENARIO 1: Background Noise Cancellation
     
@@ -240,7 +240,7 @@ Screenshot - Jira Support Ticket
 ---
 
 ## 📊 Results:
-The deployment of the Virtual Microphone and Noise Supression software (Krisp) resulted in the following benefits for both users and support team members:
+The deployment of the Virtual Microphone and Noise Suppression software (Krisp) resulted in the following benefits for both users and support team members:
 - 🤝 **Improved Meeting Productivity**
 >    - (Krisp's noise-cancellation feature, will remove distracting noises during remote meetings, allowing for <ins>more productive conversations</ins> and <ins>improving overall engagement</ins>).
     
@@ -248,7 +248,7 @@ The deployment of the Virtual Microphone and Noise Supression software (Krisp) r
 >    - (The 'Ticket Response Template' and 'Manual-Installation Instructions', will provide the Support Team with the necessary guidance to <ins>resolve microphone-related issues on the first call</ins>).
     
 - 🔕 **Non-Intrusive Experience**
->    - (The 2 deployment options, will automate the installtion process in the background of the user's workstation, <ins>reducing interruptions to their workflow.</ins>).
+>    - (The 2 deployment options, will automate the installation process in the background of the user's workstation, <ins>reducing interruptions to their workflow.</ins>).
 
 ---
 
