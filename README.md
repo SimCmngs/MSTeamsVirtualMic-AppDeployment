@@ -2,7 +2,7 @@
 
 This project aims to resolve the issue of "disruptive background noises" during virtual meetings and calls, by deploying a Virtual Microphone/Noise Suppression solution that easily integrates with **Microsoft Teams**.
 
-![Diagram](IMG_KrispDeploy-Diagram.png)
+![Diagram](images/IMG_KrispDeploy-Diagram.png)
 
 > Originally, this project was made to help a co-student suppress the background noises their microphone was picking up during our Zoom call sessions. 
 > 
@@ -41,7 +41,7 @@ An indie-game development company (VGM-LAB) - are facing a difficult challenge, 
 - Their reliance on remote meetings has increased due to more team members working from home, with Microsoft Teams being their primary platform for virtual collaboration.
 - Complaints include poor microphone/audio quality and background noises disrupting the flow of virtual calls and meetings.
 
-<img src="IMG_OpenOfficeLayout.jpeg" width="40%" height="40%" />
+<img src="images/IMG_OpenOfficeLayout.jpeg" width="40%" height="40%" />
 
 ## ⛔ Problem Statement:
 The Support Team was receiving a high volume of tickets related to microphone issues in Microsoft Teams. The problems ranged from:
@@ -110,7 +110,7 @@ Performed <ins>A/B comparison tests</ins>, to evaluate the noise supression capa
     The Krisp-enabled audio, consistently provided a cleaner and more focused sound, 
     eliminating the distracting background noises.
     
-<img src="IMG_Krisp-NoiseCancel.png" width="60%" height="60%" />
+<img src="images/IMG_Krisp-NoiseCancel.png" width="60%" height="60%" />
 
 
     TEST SCENARIO 2: Echo Removal
@@ -121,7 +121,7 @@ Performed <ins>A/B comparison tests</ins>, to evaluate the noise supression capa
     The Krisp-enabled audio, consistently provided a clearer and more forward sound, 
     removing the voice echoes completely.
   
-<img src="IMG_Krisp-EchoCancel.png" width="40%" height="40%" />
+<img src="images/IMG_Krisp-EchoCancel.png" width="40%" height="40%" />
 
 ---
 
@@ -142,7 +142,7 @@ Performed <ins>A/B comparison tests</ins>, to evaluate the noise supression capa
 
 Installing **Krisp** with <ins>*Windows Package Manager*</ins>: `winget`
 
-<img src="GIF_KrispWingetInstall.gif" width="70%" height="70%" />
+<img src="images/GIF_KrispWingetInstall.gif" width="70%" height="70%" />
 
 `PowerShell` -script
 
@@ -180,7 +180,7 @@ Write-Host "Krisp installed successfully."
 
 Running <ins>Intune Win32 Content Prep Tool</ins> to generate the **.IntuneWin** file:
 
-![Animation of IntuneWin32ContentPrep.ps1 script](GIF_IntuneWinScript.gif)
+![Animation of IntuneWin32ContentPrep.ps1 script](images/GIF_IntuneWinScript.gif)
 
 `PowerShell` -script
 
@@ -231,9 +231,9 @@ SUPPORT TEAM:
 
 `Jira` -support ticket 
 
-<details><summary>Screenshot - Jira Support Ticket
+Screenshot - Jira Support Ticket
 
-<img src="IMG_Jira-TicketNote.png" width="70%" height="70%" />
+<img src="images/IMG_Jira-TicketNote.png" width="70%" height="70%" />
 
 </details>
 
