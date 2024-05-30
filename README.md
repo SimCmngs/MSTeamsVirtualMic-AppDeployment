@@ -231,7 +231,7 @@ SUPPORT TEAM:
 
 `Jira` -support ticket 
 
-<details><summary>Screenshot - Jira Support Ticket</summary>
+<details><summary>Screenshot - Jira Support Ticket
 
 <img src="IMG_Jira-TicketNote.png" width="70%" height="70%" />
 
