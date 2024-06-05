@@ -154,9 +154,17 @@ $wingetInstalled = Get-Command winget -ErrorAction SilentlyContinue
 
 # Install winget if it's not installed
 if (-not $wingetInstalled) {
-    Write-Host "Installing winget..."
-    Invoke-WebRequest -Uri "https://github.com/microsoft/winget-cli/releases/latest/download/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.appxbundle" -OutFile "$env:TEMP\winget.appxbundle"
-    Add-AppxPackage -Path "$env:TEMP\winget.appxbundle"
+    $latestWingetMsixBundleUri = $(Invoke-RestMethod https://api.github.com/repos/microsoft/winget-cli/releases/latest).assets.browser_download_url | Where-Object {$_.EndsWith(".msixbundle")}
+    $latestWingetMsixBundle = $latestWingetMsixBundleUri.Split("/")[-1]
+
+    # Download Visual C++ Runtime and Winget packages
+    Write-Information "Downloading Winget to artifacts directory..."
+    Invoke-WebRequest -Uri $latestWingetMsixBundleUri -OutFile "$env:TEMP\$latestWingetMsixBundle"
+    Invoke-WebRequest -Uri https://aka.ms/Microsoft.VCLibs.x64.14.00.Desktop.appx -OutFile "$env:TEMP\Microsoft.VCLibs.x64.14.00.Desktop.appx"
+
+    # Install Visual C++ Runtime and Winget packages
+    Add-AppxPackage -Path "$env:TEMP\Microsoft.VCLibs.x64.14.00.Desktop.appx"
+    Add-AppxPackage -Path "$env:TEMP\$latestWingetMsixBundle"
     Write-Host "winget installed successfully."
 }
 
